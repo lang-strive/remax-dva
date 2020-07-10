@@ -1,0 +1,28 @@
+{
+  "name": "mall",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project",
+  "main": "index.js",
+  "keywords": [],
+  "author": "chenlang1314. <lang_strive@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -w -t",
+    "build": "cross-env NODE_ENV=production remax build -t"
+  },
+  "dependencies": {
+    "@remax/plugin-less": "^1.0.0",
+    "classnames": "^2.2.6",
+    "dva-core": "^1.4.0",
+    "dva-loading": "^3.0.20",
+    "qs": "^6.9.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "remax": "^2.6.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
