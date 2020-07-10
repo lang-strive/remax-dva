@@ -1,5 +1,5 @@
 const pages = ["pages/home/index"];
-const title = "锣贸商城";
+const title = "remax-dva";
 const navigationBarBackgroundColor = "#ffffff";
 const navigationBarTextStyle = "black";
 
